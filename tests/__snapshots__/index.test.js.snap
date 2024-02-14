@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.js GET /all should return a list of currencies with corresponding countries using the currency 1`] = `
+[
+  {
+    "countries": [
+      "Cyprus",
+    ],
+    "currency": "EUR",
+  },
+  {
+    "countries": [
+      "Eritrea",
+    ],
+    "currency": "ERN",
+  },
+  {
+    "countries": [
+      "Liberia",
+    ],
+    "currency": "LRD",
+  },
+]
+`;
+
+exports[`index.js GET /region/:region should return a list of countries with corresponding currency  1`] = `
+[
+  {
+    "currency": "ALL",
+    "name": "Albania",
+  },
+  {
+    "currency": "EUR",
+    "name": "Cyprus",
+  },
+  {
+    "currency": "DKK",
+    "name": "Faroe Islands",
+  },
+  {
+    "currency": "EUR",
+    "name": "Italy",
+  },
+  {
+    "currency": "RSD",
+    "name": "Serbia",
+  },
+  {
+    "currency": "EUR",
+    "name": "Slovakia",
+  },
+  {
+    "currency": "EUR",
+    "name": "Vatican City",
+  },
+]
+`;
